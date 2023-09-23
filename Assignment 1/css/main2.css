@@ -1,0 +1,320 @@
+#difftext
+{
+    font-size: 20px;
+    color: black;
+}
+.button:visited,link
+{
+    color: hotpink;
+}
+.button:hover
+{
+    color: #FFFF00;
+    opacity: 0.5;
+}
+
+#html5
+{
+display: inline-block;
+position: fixed;
+z-index: 5;
+right: 1px;
+top: 1px;
+}
+#Title
+{
+    color: #7a04eb;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+body
+{
+    
+}
+
+#name 
+{
+    font-weight: bold;
+    font-size: 38px;
+    list-style-type: none;
+    color: #ff124f;  
+}
+#skillsname 
+{
+    font-weight: bold;
+    font-size: 38px;
+    list-style-type: none;
+    color: #ff124f;  
+}
+#firstname 
+{
+    font-weight: bold;
+    font-size: 33px;
+    list-style-type: none;
+    color: #ff124f;
+}
+#disc
+{
+    color: #ff124f; 
+    font-weight: bold;
+    font-size: 46px;
+    
+}
+#randomlist
+{
+    padding: 0px;
+    margin: 5px;
+    color: black;
+    list-style-type: none;
+}
+#under
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+#media_stuff
+{
+    font-size: 22.8px;
+    color: black;
+}
+#firstpanel
+{
+    background-image: url("../images/background.jpg");
+    background-size: 612px 251px;
+    /* width: 608px; */
+    width: 618px;
+    background-repeat: no-repeat;
+    height: 249px;
+    border: 3px solid rgba(255, 0, 0, .5);
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px hotpink;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+}
+#points
+{
+    padding: 0px;
+    padding-bottom: 73px;
+    margin: -30px;
+    top: -1px;
+    z-index: 1;
+    background-color: #71C9BB;
+    border: 3px solid rgba(255, 0, 0, .5);
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px hotpink;
+    box-sizing: border-box;
+    transform: rotate(-5deg);
+    color: green;
+    width: 618px;
+    padding-top: 0px;
+}
+#skillstable
+{
+    
+    list-style-type: disc;
+    color: black;
+    font-size: 20px; 
+}
+#experience
+{
+    padding: 10px;
+    margin: -61px;
+    padding-bottom: 54px;
+    z-index: 2;
+    background-color: #71C9BB;
+    border: 3px solid rgba(255, 0, 0, .5);
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px hotpink;
+    box-sizing: border-box;
+    transform: rotate(-5deg);
+    color: green;
+    width: 618px;
+}
+p
+{
+margin-top: 0px;
+}
+#cooper
+{
+    border-radius: 15px;
+    width: 194px;
+    height: 215px;
+
+}
+#lastbox
+{
+    
+    padding: 10px;
+    margin: -31px;
+    z-index: 4;
+    background-color: #71C9BB;
+    border: 3px solid rgba(255, 0, 0, .5);
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px hotpink;
+    box-sizing: border-box;
+    transform: rotate(-5deg);
+    color: green;
+    width: 618px;
+}
+#massive
+{
+    padding: 10px;
+    margin: 2px;
+    z-index: 3;
+    background-color: #71C9BB;
+    border: 3px solid rgba(255, 0, 0, .5);
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px hotpink;
+    box-sizing: border-box;
+    transform: rotate(-5deg);
+    color: green;
+    width: 618px;
+}
+#text
+{color: black;font-size: 24.8px;}
+#table_element
+{
+color:whitesmoke;
+font-size: 27px;
+width: 271px;
+float: right;
+}
+#biopara
+{
+    background-color: #71C9BB;
+    padding: 7px;
+    margin: 0px;
+    border: 3px solid rgba(255, 0, 0, .5);
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px hotpink;
+    box-sizing: border-box;
+    color: green;
+    width: 619px;
+    margin-left: 1.3%;
+}
+
+@media screen and (max-width: 1368px)
+{
+    
+    .big
+    {
+        display: grid;
+        grid-auto-flow: row;
+        width: 200%;
+        align-content: stretch !important;
+        margin-right: 20%;
+        height: 100%;
+        margin-bottom: 20%;
+    }
+    #right
+    {
+      margin-left: 20%;
+      margin-left: 88%;
+      margin-top: 8%;
+    }
+    
+    #points 
+    {
+        transform: rotate(0deg);
+        height: 15%;
+    }
+    #experience 
+    {
+        transform: rotate(0deg) !important;
+        margin-top: 63%;
+        height: 10%;
+        padding-bottom: 0% !important;
+    }
+    #massive 
+    {
+        transform: rotate(0deg) !important;
+        margin-top: 105%;
+    }
+    #fifthbox 
+    {
+        transform: rotate(0deg) !important;
+        margin-top: 7%;
+       
+    }
+    #lastbox 
+    {
+        transform: rotate(0deg) !important;
+        margin-top: 27%;
+    }
+    #skillstable {
+   
+        color: blue !important;
+        font-size: 200%;
+      
+    }
+    #skillsname {
+        font-size: 150%;
+
+    }
+    #text
+    {
+        font-size: 200%;
+        line-height: 30pt;
+    }
+    #difftext
+    {
+        font-size: 200%;
+        line-height: 30pt;
+    }
+    #name
+    {
+        font-size: 300% !important;
+    }
+    
+    #disc
+    {
+        font-size: 300% !important;
+    } 
+    #media_stuff
+    {
+        font-size: 170%;
+    }
+    body
+    {
+        background-image: url(); 
+        background-color: greenyellow;
+        position: absolute;
+    }
+    #Title
+    {
+        padding-left: 46%;
+        padding-right: 0%;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 42.5%;
+    }
+    .both
+    {
+
+    }
+    #cooper
+    {
+        /* width: 349px   !important; */
+        /* height: 334px  !important; */
+    }
+    #firstpanel
+    {
+
+
+}
+    #left
+    {
+
+margin-left: 45%;
+
+}
+#html5
+{
+    position: absolute;
+    height: 2%;
+    left: 71%;
+}
+
+}

@@ -1,0 +1,76 @@
+body {
+    background-image: url(../images/backgroundimage3.jpg); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+    background-repeat: no-repeat;
+    background-size: cover; /* This will make the background image cover the entire body */
+
+}
+
+.big
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#left
+{
+    
+/* display: flex; */
+    
+/* margin-left: 20%; */
+    
+/* margin-left: 11%; */
+    
+flex-direction: column;
+    
+align-items: flex-start;
+}
+#left
+{
+    display: flex;
+    
+}
+#right
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#firstbox
+{
+width: 300px;
+}
+#fifthbox
+{
+    padding: 10px;
+    margin: 10px;
+    top: 300px;
+    z-index: 3;
+    background-color: #71C9BB;
+}
+.element_table
+{
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) 
+{
+body
+
+   
+    {
+        background-color: yellow; /* Fallback background color in case the image doesn't load or cover fully */
+    }
+    #Title
+    {
+        position: initial;
+        left: 100px;
+    }
+
+
+
+}
+
+
+ 
